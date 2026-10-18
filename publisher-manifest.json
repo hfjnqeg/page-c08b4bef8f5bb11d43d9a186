@@ -1,0 +1,74 @@
+{
+  "version": 2,
+  "template_version": "3a528c553883e59d7cfa",
+  "page_size": 20,
+  "site_id": "68db9590140729f5966c4964",
+  "owner": "hfjnqeg",
+  "repo": "page-c08b4bef8f5bb11d43d9a186",
+  "title": "安全梯",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "c08b4bef8f5bb11d43d9a186",
+      "a": "安全梯",
+      "b": "",
+      "entity": "安全梯",
+      "brand": "安全梯",
+      "separator": "",
+      "path": "index.html",
+      "hash": "fc00d9ad2602979a1f6313b0f9760b4fc8d88a35f8630ddede93a862a71b0911",
+      "content": {
+        "keyword1": "安全梯",
+        "keyword2": "",
+        "primary_entity": "安全梯",
+        "plans": [],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "安全梯提供稳定可靠的网络接入服务，自2019年起为用户提供加密私密连接，支持多设备同时在线，套餐灵活可选。",
+          "AI_DESCRIPTION": "安全梯提供稳定可靠的网络接入服务，自2019年起为用户提供加密私密连接，支持多设备同时在线，套餐灵活可选。"
+        },
+        "_brand_page": {
+          "version": 3,
+          "body": "<style>\n  :root {--bg: #f5f5f7;--fg: #2c2c2e;--purple: #7b3ff2;--purple-light: #ede4ff;--border: #d8d8dc;--muted: #86868b;--dash: #b8a0e8}\n  * {box-sizing: border-box;margin: 0;padding: 0}\n  body {font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", \"PingFang SC\", \"Microsoft YaHei\", sans-serif;background: var(--bg);color: var(--fg);line-height: 1.6;font-size: 16px}\n  .container {max-width: 860px;margin: 0 auto;padding: 0 24px}\n\n  /* Hero - 纵向时间线引入 */\n  .hero {padding: 80px 0 60px;border-bottom: 1px solid var(--border)}\n  .hero h1 {font-size: 2.4rem;font-weight: 800;letter-spacing: -1px;margin-bottom: 12px}\n  .hero .tagline {font-size: 1.05rem;color: var(--muted);margin-bottom: 48px;max-width: 520px}\n  .timeline {position: relative;padding-left: 28px;border-left: 2px solid var(--purple)}\n  .timeline-item {margin-bottom: 28px;position: relative}\n  .timeline-item:last-child {margin-bottom: 0}\n  .timeline-item::before {content: \"\";position: absolute;left: -35px;top: 6px;width: 12px;height: 12px;border-radius: 50%;background: var(--purple);border: 3px solid var(--bg)}\n  .timeline-date {font-size: 0.85rem;color: var(--purple);font-weight: 700;margin-bottom: 2px}\n  .timeline-text {font-size: 0.95rem;color: var(--fg)}\n\n  /* 区块内跳转链接 */\n  .section-nav {padding: 20px 0;border-bottom: 1px solid var(--border);text-align: center}\n  .section-nav a {color: var(--purple);text-decoration: none;margin: 0 12px;font-size: 0.9rem;font-weight: 600}\n  .section-nav a:hover {text-decoration: underline}\n\n  /* 通用区块 */\n  section {padding: 64px 0;border-bottom: 1px solid var(--border)}\n  h2 {font-size: 1.6rem;font-weight: 800;margin-bottom: 28px;letter-spacing: -0.5px}\n  h3 {font-size: 1.15rem;font-weight: 700;margin-bottom: 8px}\n  p {margin-bottom: 16px}\n\n  /* 虚线框票据风格卡片 */\n  .ticket {border: 2px dashed var(--dash);border-radius: 8px;padding: 24px;margin-bottom: 20px;background: #fff}\n  .ticket-head {display: flex;justify-content: space-between;align-items: baseline;border-bottom: 1px dashed var(--dash);padding-bottom: 12px;margin-bottom: 14px}\n  .ticket-name {font-weight: 800;font-size: 1.1rem}\n  .ticket-price {color: var(--purple);font-weight: 700;font-size: 1.05rem}\n  .ticket ul {list-style: none;padding: 0}\n  .ticket li {padding: 4px 0;font-size: 0.92rem;color: var(--fg)}\n  .ticket li::before {content: \"✓ \";color: var(--purple);font-weight: 700}\n  .ticket .annual {margin-top: 12px;font-size: 0.85rem;color: var(--muted);border-top: 1px dashed var(--dash);padding-top: 10px}\n\n  /* 套餐推荐标记 */\n  .ticket.featured {border-color: var(--purple);background: var(--purple-light)}\n  .ticket.featured .ticket-name::after {content: \"推荐\";background: var(--purple);color: #fff;font-size: 0.7rem;padding: 2px 8px;border-radius: 4px;margin-left: 8px;vertical-align: middle}\n\n  /* 使用说明 */\n  .steps {list-style: none;counter-reset: step}\n  .steps li {counter-increment: step;padding: 16px 0 16px 48px;position: relative;border-bottom: 1px solid var(--border)}\n  .steps li:last-child {border-bottom: none}\n  .steps li::before {content: counter(step, decimal-leading-zero);position: absolute;left: 0;top: 16px;font-size: 1.3rem;font-weight: 800;color: var(--purple)}\n  .step-title {font-weight: 700;margin-bottom: 4px}\n  .step-desc {font-size: 0.9rem;color: var(--muted)}\n\n  /* FAQ */\n  details {border-bottom: 1px solid var(--border);padding: 16px 0}\n  details summary {font-weight: 700;cursor: pointer;list-style: none;display: flex;justify-content: space-between;align-items: center}\n  details summary::-webkit-details-marker {display: none}\n  details summary::after {content: \"+\";color: var(--purple);font-size: 1.3rem;font-weight: 700}\n  details[open] summary::after {content: \"−\"}\n  details .answer {padding-top: 12px;color: var(--muted);font-size: 0.92rem}\n\n  /* 客户端区块 */\n  .client-grid {display: grid;grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));gap: 16px}\n  .client-card {border: 2px dashed var(--dash);border-radius: 8px;padding: 20px;background: #fff}\n  .client-card h3 {margin-bottom: 4px}\n  .client-card p {font-size: 0.85rem;color: var(--muted);margin: 0}\n  .client-card .download-link {display: inline-block;margin-top: 10px;color: var(--purple);text-decoration: none;font-size: 0.85rem;font-weight: 600}\n\n  /* footer */\n  footer {padding: 40px 0;text-align: center;color: var(--muted);font-size: 0.85rem}\n  footer a {color: var(--purple);text-decoration: none}\n\n  @media (max-width: 600px) {\n    .hero h1 {font-size: 1.8rem}\n    .section-nav a {display: inline-block;margin: 6px}\n  }\n</style><main class=\"container\">\n\n  \n  <header class=\"hero\">\n    <h1>安全梯</h1>\n    <p class=\"tagline\">自2019年起提供加密网络接入服务，专注稳定连接与隐私保护，不记录访问日志，按需选择套餐即可使用。</p>\n    <div class=\"timeline\">\n      <div class=\"timeline-item\">\n        <div class=\"timeline-date\">2019</div>\n        <div class=\"timeline-text\">服务上线，提供基础加密接入节点</div>\n      </div>\n      <div class=\"timeline-item\">\n        <div class=\"timeline-date\">2020</div>\n        <div class=\"timeline-text\">引入多设备支持，覆盖主流桌面与移动端</div>\n      </div>\n      <div class=\"timeline-item\">\n        <div class=\"timeline-date\">2022</div>\n        <div class=\"timeline-text\">扩充专线节点池，优化高峰时段稳定性</div>\n      </div>\n      <div class=\"timeline-item\">\n        <div class=\"timeline-date\">2024</div>\n        <div class=\"timeline-text\">推出团队版套餐，支持企业定制路由</div>\n      </div>\n    </div>\n  </header>\n\n  \n  <nav class=\"section-nav\">\n    <a href=\"#plans\">查看套餐</a>\n    <a href=\"#usage\">使用说明</a>\n    <a href=\"#clients\">客户端下载</a>\n    <a href=\"#faq\">常见问题</a>\n  </nav>\n\n  \n  <section id=\"plans\">\n    <h2>套餐选择</h2>\n    <p>以下套餐均包含加密接入与无日志记录，按月或按年付费，可随时取消续订。</p>\n\n    <article class=\"ticket\">\n      <div class=\"ticket-head\">\n        <span class=\"ticket-name\">基础版</span>\n        <span class=\"ticket-price\">¥15/月</span>\n      </div>\n      <ul>\n        <li>每月 100GB 极速流量</li>\n        <li>支持 3 台设备同时在线</li>\n        <li>解锁基础流媒体</li>\n        <li>普通线路节点池</li>\n      </ul>\n      <div class=\"annual\">按年付仅需 ¥150/年</div>\n    </article>\n\n    <article class=\"ticket featured\">\n      <div class=\"ticket-head\">\n        <span class=\"ticket-name\">旗舰版</span>\n        <span class=\"ticket-price\">¥35/月</span>\n      </div>\n      <ul>\n        <li>每月 300GB 极速流量</li>\n        <li>支持 5 台设备同时在线</li>\n        <li>全节点原生流媒体解锁</li>\n        <li>IPLC 专线游戏加速优化</li>\n        <li>7x24 优先工单支持</li>\n      </ul>\n      <div class=\"annual\">按年付仅需 ¥350/年</div>\n    </article>\n\n    <article class=\"ticket\">\n      <div class=\"ticket-head\">\n        <span class=\"ticket-name\">团队版</span>\n        <span class=\"ticket-price\">¥85/月</span>\n      </div>\n      <ul>\n        <li>每月 1000GB 极速流量</li>\n        <li>支持 20 台设备同时在线</li>\n        <li>VIP 专属高带宽节点</li>\n        <li>支持企业定制路由</li>\n        <li>专属客户经理服务</li>\n      </ul>\n      <div class=\"annual\">按年付仅需 ¥850/年</div>\n    </article>\n  </section>\n\n  \n  <section id=\"usage\">\n    <h2>使用说明</h2>\n    <ol class=\"steps\">\n      <li>\n        <div class=\"step-title\">选择适合的套餐</div>\n        <div class=\"step-desc\">根据设备数量和流量需求选择基础版、旗舰版或团队版，完成订阅后获取账号信息。</div>\n      </li>\n      <li>\n        <div class=\"step-title\">下载对应客户端</div>\n        <div class=\"step-desc\">在 Windows、macOS、Android 或 iOS 设备上安装对应客户端，支持主流协议导入。</div>\n      </li>\n      <li>\n        <div class=\"step-title\">导入订阅地址</div>\n        <div class=\"step-desc\">登录账号后台复制专属订阅链接，粘贴到客户端中自动拉取节点列表。</div>\n      </li>\n      <li>\n        <div class=\"step-title\">选择节点并连接</div>\n        <div class=\"step-desc\">从节点列表中选择延迟较低的节点，点击连接即可开始加密上网。</div>\n      </li>\n    </ol>\n  </section>\n\n  \n  <section id=\"clients\">\n    <h2>客户端支持</h2>\n    <p>安全梯兼容主流协议，可使用以下客户端接入，具体配置方式请参考订阅后台的使用指引。</p>\n    <div class=\"client-grid\">\n      <div class=\"client-card\">\n        <h3>Windows</h3>\n        <p>支持 Clash for Windows、v2rayN 等客户端</p>\n        <a href=\"#\" class=\"download-link\">配置教程</a>\n      </div>\n      <div class=\"client-card\">\n        <h3>macOS</h3>\n        <p>支持 ClashX、V2RayU 等客户端</p>\n        <a href=\"#\" class=\"download-link\">配置教程</a>\n      </div>\n      <div class=\"client-card\">\n        <h3>Android</h3>\n        <p>支持 Clash for Android、v2rayNG 等客户端</p>\n        <a href=\"#\" class=\"download-link\">配置教程</a>\n      </div>\n      <div class=\"client-card\">\n        <h3>iOS</h3>\n        <p>支持 Shadowrocket、Quantumult X 等客户端</p>\n        <a href=\"#\" class=\"download-link\">配置教程</a>\n      </div>\n    </div>\n  </section>\n\n  \n  <section id=\"faq\">\n    <h2>常见问题</h2>\n\n    <details>\n      <summary>安全梯会记录我的访问日志吗？</summary>\n      <div class=\"answer\">安全梯承诺不记录用户的浏览历史、DNS 查询和访问目标。系统仅保留账号状态与流量用量统计，用于套餐管理，不涉及具体访问内容。</div>\n    </details>\n\n    <details>\n      <summary>套餐流量用完后会怎样？</summary>\n      <div class=\"answer\">当月流量用尽后连接会自动暂停，可在次月1日自动重置，或额外购买流量包补充。建议根据实际用量选择对应套餐等级。</div>\n    </details>\n\n    <details>\n      <summary>可以同时在多台设备上使用吗？</summary>\n      <div class=\"answer\">可以。基础版支持3台设备同时在线，旗舰版支持5台，团队版支持20台。超出限制时最早连接的设备会被自动断开。</div>\n    </details>\n\n    <details>\n      <summary>支持哪些支付方式？</summary>\n      <div class=\"answer\">目前支持支付宝、微信支付和部分加密货币付款。订阅后台会显示当前可用的支付渠道，按年付费可享折扣。</div>\n    </details>\n\n    <details>\n      <summary>如果对服务不满意可以退款吗？</summary>\n      <div class=\"answer\">首次订阅7天内且未使用超过5GB流量，可联系工单申请全额退款。按年订阅的退款将按未使用月份折算。具体规则以服务条款为准。</div>\n    </details>\n\n    <details>\n      <summary>节点速度慢怎么办？</summary>\n      <div class=\"answer\">可尝试切换到其他节点，优先选择地理距离较近的区域。旗舰版和团队版提供专线节点，高峰时段稳定性更好。如持续异常请提交工单排查。</div>\n    </details>\n  </section>\n\n  <footer>\n    <p>安全梯 · 加密网络接入服务 · <a href=\"#\">服务条款</a> · <a href=\"#\">隐私政策</a></p>\n    <p>本服务仅供合规网络访问使用，请遵守当地法律法规。</p>\n  </footer>\n\n</main>",
+          "hash": "08e270124e19105d76ea6f4370f4168a8573a3a771c2e727d9666cdac809f342",
+          "seo": {
+            "title": "安全梯 - 稳定私密网络接入服务",
+            "keywords": "安全梯,网络接入,私密浏览,加密传输,多设备支持",
+            "description": "安全梯提供稳定可靠的网络接入服务，自2019年起为用户提供加密私密连接，支持多设备同时在线，套餐灵活可选。"
+          },
+          "provider": "grok",
+          "model": "glm-5.3",
+          "design": {
+            "no": "4013",
+            "hero": "6 纵向时间线引入",
+            "palette": "4 浅灰配电光紫",
+            "nav": "6 无导航，用区块内的跳转链接",
+            "card": "6 虚线框票据风格",
+            "plans_view": "4 单列大卡依次堆叠",
+            "faq_view": "4 details 折叠",
+            "tone": "6 清单式务实口吻",
+            "order": "首屏优先，其余区块由 AI 根据已选构图和信息关系安排"
+          }
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "smneg.cn",
+    "host": "p-c34b4b62c8.smneg.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "40db3ea34211ddff3ae3831bfeca1828aa2b0a5b62d89fb5f6c3693b0030cce3",
+    "sitemap.xml": "52bb514af5b774c5ae7e67772cb248a394938e596b2dbe9321c83f9f0d53b6ac",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "62c6ac2021ceade49ff79d74de538410463ea40b5ac398d8b4fc1ebe89122362",
+    "robots.txt": "e99a05abe38c50781f0b4a5ffd0d8fdb05218cba3fed856c389b23db3e6a137f",
+    "3aca8bd6aa38700046ddef1479e8464b.txt": "5f03a099146c9d1e08a96f8b915f03ce500b8c825919cbf48667990267a0188c"
+  },
+  "revision": "cc989d8da35c6f802cdc2c0371d55c6e95d93783143939d79abd9da3740dd46f"
+}
